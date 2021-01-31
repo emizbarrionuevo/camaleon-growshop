@@ -309,23 +309,6 @@ input {
     transition: all 1s;
 }
 
-input:hover {
-    width: 250px;
-    height: 30px;
-    font-size: 24px;
-}
-
-button:hover {
-    transform: scale(1.2);
-    transition: 1s;
-    background-color: black;
-    border: 2px #80ff00 solid;
-    margin: 16px black solid;
-    color:chartreuse;
-}
-
-
-
 
 .card p, footer p {
     color:white
@@ -355,8 +338,8 @@ button:hover {
 
 .mapContainer {
     width: 90vw;
-    margin-top: 2rem;
-    margin-left: 80px;
+    margin-top: 3rem;
+    padding-top: 2rem;
 }
 
 .iframeCont {
@@ -372,5 +355,10 @@ button:hover {
     flex-direction: row;
 }
 
-
-
+.formColors {
+    background-color: rgb(39, 39, 39);
+    padding: 3rem;
+    margin: 3rem;
+    color: white;
+    border-radius: 2rem;
+}
